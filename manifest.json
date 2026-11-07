@@ -1,0 +1,14 @@
+{
+  "name": "MI PRÉSTAMOS — Control y Seguridad",
+  "short_name": "Mis Préstamos",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F8FD",
+  "theme_color": "#064A9B",
+  "lang": "es",
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

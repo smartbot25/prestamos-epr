@@ -1,0 +1,19 @@
+:root{
+  --azul:#0756C9;
+  --azul-oscuro:#102B50;
+  --azul-enc:#064A9B;
+  --azul-claro:#E5EEFF;
+  --blanco:#FFFFFF;
+  --fondo:#F5F8FD;
+  --verde:#149653;
+  --naranja:#F28B22;
+  --rojo:#DC3545;
+  --morado:#7650C8;
+  --turq:#0CA99A;
+  --gris:#E9EDF5;
+  --texto:#102B50;
+  --muted:#6B7A90;
+  --radio:18px;
+  --sombra:0 4px 14px rgba(16,43,80,.08);
+  --font:'Inter',system-ui,-apple-system,sans-serif;
+}

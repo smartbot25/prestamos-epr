@@ -1,0 +1,16 @@
+.sidebar{display:none}
+body.menu-open .sidebar{display:flex;position:fixed;left:0;top:0;bottom:0;width:260px;z-index:40}
+@media (min-width:900px){
+  .sidebar{display:flex;flex-direction:column;position:fixed;left:0;top:0;bottom:0;width:240px;background:linear-gradient(180deg,#0d2a52,#102B50);color:#fff;padding:24px 16px;z-index:40}
+  .brand{display:flex;flex-direction:column;align-items:center;gap:4px;margin-bottom:24px}
+  .brand svg{width:48px;height:48px;color:#5b9bff}
+  .brand small{opacity:.7}
+  .sidebar nav{display:flex;flex-direction:column;gap:4px;flex:1}
+  .sidebar nav button{display:flex;align-items:center;gap:12px;background:none;border:0;color:#fff;padding:12px;border-radius:12px;font:600 14px var(--font);cursor:pointer;text-align:left}
+  .sidebar nav button.on{background:var(--azul)}
+  .side-user{display:flex;gap:10px;align-items:center;border-top:1px solid rgba(255,255,255,.12);padding-top:14px}
+  .app{margin-left:240px;padding-bottom:20px}
+  .bottomnav{display:none}
+  .menu-btn{display:none}
+  #view{max-width:980px}
+}
